@@ -1,0 +1,204 @@
+{
+    "products": [
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "name": "LED лампа EcoBright 10W",
+        "type": "LED",
+        "power": "10W",
+        "lifespan": "30000 часов",
+        "price": 450,
+        "description": "Энергосберегающая лампа с тёплым белым светом, эквивалент 75W лампы накаливания",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440001",
+        "name": "LED лампа CoolDaylight 15W",
+        "type": "LED",
+        "power": "15W",
+        "lifespan": "35000 часов",
+        "price": 600,
+        "description": "Лампа холодного белого света для рабочих помещений",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440002",
+        "name": "Лампа накаливания Classic 60W",
+        "type": "лампы накаливания",
+        "power": "60W",
+        "lifespan": "1000 часов",
+        "price": 50,
+        "description": "Классическая лампа с тёплым светом",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440003",
+        "name": "Умная лампа SmartHome Pro",
+        "type": "умные лампы",
+        "power": "9W",
+        "lifespan": "25000 часов",
+        "price": 1990,
+        "description": "Управление через Wi-Fi, работа с голосовыми помощниками",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440004",
+        "name": "LED лампа Vintage 5W",
+        "type": "LED",
+        "power": "5W",
+        "lifespan": "20000 часов",
+        "price": 320,
+        "description": "Декоративная лампа в форме свечи для люстр",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440005",
+        "name": "Лампа накаливания Mirror 40W",
+        "type": "лампы накаливания",
+        "power": "40W",
+        "lifespan": "2000 часов",
+        "price": 80,
+        "description": "Зеркальная лампа для направленного света",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440006",
+        "name": "Умная лампа White SmartZ",
+        "type": "умные лампы",
+        "power": "12W",
+        "lifespan": "30000 часов",
+        "price": 1500,
+        "description": "Регулировка белого света, управление через приложение",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440007",
+        "name": "LED лампа Eco 12W",
+        "type": "LED",
+        "power": "12W",
+        "lifespan": "40000 часов",
+        "price": 550,
+        "description": "Экономичная модель с высоким индексом цветопередачи",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440008",
+        "name": "Лампа накаливания Globe 25W",
+        "type": "лампы накаливания",
+        "power": "25W",
+        "lifespan": "1500 часов",
+        "price": 45,
+        "description": "Шарообразная декоративная лампа",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440009",
+        "name": "Умная лампа FullColor",
+        "type": "умные лампы",
+        "power": "10W",
+        "lifespan": "20000 часов",
+        "price": 2200,
+        "description": "RGB-лампа с синхронизацией с музыкой",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440010",
+        "name": "LED прожектор Street 30W",
+        "type": "LED",
+        "power": "30W",
+        "lifespan": "50000 часов",
+        "price": 1200,
+        "description": "Уличный прожектор с защитой от влаги",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440011",
+        "name": "Лампа накаливания Crystal 75W",
+        "type": "лампы накаливания",
+        "power": "75W",
+        "lifespan": "1000 часов",
+        "price": 65,
+        "description": "Лампа с кристальным эффектом для люстр",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440012",
+        "name": "Умная лампа Mini",
+        "type": "умные лампы",
+        "power": "7W",
+        "lifespan": "15000 часов",
+        "price": 1700,
+        "description": "Компактная лампа для точечных светильников",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440013",
+        "name": "LED лампа Filament 8W",
+        "type": "LED",
+        "power": "8W",
+        "lifespan": "25000 часов",
+        "price": 700,
+        "description": "Стиль ретро с нитью накала, винтажный дизайн",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440014",
+        "name": "Лампа накаливания Spot 100W",
+        "type": "лампы накаливания",
+        "power": "100W",
+        "lifespan": "750 часов",
+        "price": 90,
+        "description": "Мощная лампа для локального освещения",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440015",
+        "name": "Умная лампа Office 15W",
+        "type": "умные лампы",
+        "power": "15W",
+        "lifespan": "35000 часов",
+        "price": 2500,
+        "description": "Автоматическая регулировка света в течение дня",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440016",
+        "name": "LED лампа UltraSlim 6W",
+        "type": "LED",
+        "power": "6W",
+        "lifespan": "30000 часов",
+        "price": 480,
+        "description": "Сверхтонкий дизайн для современных светильников",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440017",
+        "name": "LED лента Flex 10W",
+        "type": "LED",
+        "power": "10W",
+        "lifespan": "50000 часов",
+        "price": 890,
+        "description": "Гибкая светодиодная лента с пультом управления",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440018",
+        "name": "Лампа накаливания Candle 15W",
+        "type": "лампы накаливания",
+        "power": "15W",
+        "lifespan": "2000 часов",
+        "price": 55,
+        "description": "Миниатюрная лампа-свеча для бра",
+        "image_url": "/images/product.jpg"
+      },
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440019",
+        "name": "Умная лампа Garden 20W",
+        "type": "умные лампы",
+        "power": "20W",
+        "lifespan": "30000 часов",
+        "price": 3200,
+        "description": "Уличная умная лампа с датчиком движения",
+        "image_url": "/images/product.jpg"
+      }
+    ]
+  }
