@@ -1,0 +1,95 @@
+services:
+  # Клиентская часть
+  client-frontend:
+    build: ./client-frontend
+    ports:
+      - "80:80"
+
+  # Админская часть
+  admin-frontend:
+    build: ./admin-frontend
+    ports:
+      - "8080:80"
+
+  # Сервис авторизации
+  auth-service:
+    build: ./auth_service
+    ports:
+      - "8002:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@auth-db:5432/auth_db
+    depends_on:
+      auth-db:
+        condition: service_healthy
+
+  # Сервис товаров
+  products-service:
+    build: ./products_service
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@products-db:5432/products_db
+    depends_on:
+      products-db:
+        condition: service_healthy
+
+  # Сервис заказов
+  orders-service:
+    build: ./orders_service
+    ports:
+      - "8001:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@orders-db:5432/orders_db
+    depends_on:
+      orders-db:
+        condition: service_healthy
+
+  # База данных авторизации
+  auth-db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=auth_db
+    volumes:
+      - auth-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # База данных товаров
+  products-db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=products_db
+    volumes:
+      - products-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # База данных заказов
+  orders-db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=orders_db
+    volumes:
+      - orders-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  auth-data:
+  products-data:
+  orders-data:
